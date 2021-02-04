@@ -12,6 +12,6 @@ func main() {
 	n1, n2 := Names()
 	fmt.Println(n1, n2)
 
-	n2, _ := Names()
+	n3, _ := Names()
 	fmt.Println(n3)
 }
