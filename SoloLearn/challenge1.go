@@ -1,9 +1,10 @@
-pack main
-import "main"
+package main
 
-func mine() {
+import "fmt"
+
+func main() {
    // outputs GO 3 times
-    fmt.Printline("go")
-    fmt.println("go")
-    //fmn.Println("0")
+    fmt.Println("GO")
+    fmt.Println("GO")
+    fmt.Println("GO")
 }
