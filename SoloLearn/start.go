@@ -4,5 +4,8 @@ import "fmt"
 
 func main() {
 	fmt.Println("Hello World!")
-	// comment
+	// single line comment
+	/*
+	multiline comment
+	*/
 }
