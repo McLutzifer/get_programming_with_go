@@ -3,8 +3,9 @@ package main
 import "fmt"
 
 func mars_age(a int) int {
-	m := a / 365
-	return m
+	days := a * 365
+	mars_years := days / 687
+	return mars_years
 }
 
 func main() {
