@@ -34,5 +34,5 @@ func main() {
 	result := sum(42, 8)
 	fmt.Println(result)
 	a, b := swap(42, 8)
-	fmt.Println("a: %d and b: %v", a, b)
+	fmt.Printf("a: %d and b: %v", a, b)
 }
