@@ -31,7 +31,7 @@ func welcome2() {
 }
 
 func main() {
-	welcome2()
+	defer welcome2()
 	welcome("David")
 	welcome("Lukas")
 	convert(300)
@@ -39,5 +39,5 @@ func main() {
 	result := sum(42, 8)
 	fmt.Println(result)
 	a, b := swap(42, 8)
-	fmt.Printf("a: %d and b: %v", a, b)
+	fmt.Printf("a: %d and b: %v\n", a, b)
 }
