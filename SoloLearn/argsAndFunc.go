@@ -45,7 +45,7 @@ func main() {
 
 	fmt.Println("start")
 	for i := 0; i < 5; i++ {
-		fmt.Println(i)
+		defer fmt.Println(i)
 	}
 	fmt.Println("end")
 }
