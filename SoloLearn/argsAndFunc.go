@@ -26,7 +26,12 @@ func swap(x, y int) (int, int) {
 	return x, y
 }
 
+func welcome2() {
+	fmt.Println("Welcome")
+}
+
 func main() {
+	welcome2()
 	welcome("David")
 	welcome("Lukas")
 	convert(300)
