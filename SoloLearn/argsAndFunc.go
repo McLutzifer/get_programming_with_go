@@ -18,6 +18,14 @@ func sum(x, y int) int {
 	return x + y
 }
 
+func concat(a, b string) string {
+	return a + b
+}
+
+func swap(x, y int) (int, int) {
+	return x, y
+}
+
 func main() {
 	welcome("David")
 	welcome("Lukas")
@@ -25,4 +33,6 @@ func main() {
 	mult(3, 4)
 	result := sum(42, 8)
 	fmt.Println(result)
+	a, b := swap(42, 8)
+	fmt.Println("a: %d and b: %v", a, b)
 }
