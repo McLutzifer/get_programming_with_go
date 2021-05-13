@@ -42,4 +42,10 @@ func main() {
 	con := concat("hey", "ho")
 	fmt.Println(con)
 	fmt.Printf("a: %d and b: %v\n", a, b)
+
+	fmt.Println("start")
+	for i := 0; i < 5; i++ {
+		fmt.Println(i)
+	}
+	fmt.Println("end")
 }
