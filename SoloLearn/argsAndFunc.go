@@ -10,7 +10,7 @@ func convert(x int) {
 	fmt.Println(x / 100)
 }
 
-func mult(x, y int) {
+func multiply(x, y int) {
 	fmt.Println(x * y)
 }
 
@@ -35,9 +35,11 @@ func main() {
 	welcome("David")
 	welcome("Lukas")
 	convert(300)
-	mult(3, 4)
+	multiply(3, 4)
 	result := sum(42, 8)
 	fmt.Println(result)
 	a, b := swap(42, 8)
+	con := concat("hey", "ho")
+	fmt.Println(con)
 	fmt.Printf("a: %d and b: %v\n", a, b)
 }
