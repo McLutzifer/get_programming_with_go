@@ -7,6 +7,10 @@ type Timer struct {
 	value int
 }
 
+func (ptr *Timer) tick() {
+	ptr.value++
+}
+
 func main() {
 	var x int
 	fmt.Scanln(&x)
