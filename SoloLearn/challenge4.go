@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type Timer struct {
 	id    string
@@ -9,6 +11,7 @@ type Timer struct {
 
 func (ptr *Timer) tick() {
 	ptr.value++
+	fmt.Println(ptr.value)
 }
 
 func main() {
