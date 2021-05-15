@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
+type Timer struct {
+	id    string
+	value int
+}
+
 func main() {
 	var x int
 	fmt.Scanln(&x)
